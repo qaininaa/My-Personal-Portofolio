@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Portofolio</title>
+    <link rel="stylesheet" href="/public/output.css" />
+    <style type="text/tailwindcss">
+      
+    </style>
+  </head>
+  <body class="box-border font-inter min-h-[100vh]">
+    <header class="bg-primary sticky w-full top-0 z-[999]">
+      <nav class="py-3 px-8 flex items-center justify-between">
+        <div class="logo text-white text-xl">
+          <h1 class="font-bold"><span class="font-medium">Porto</span>Karina</h1>
+        </div>
+        <ul
+          id="menuList"
+          class="lg:flex md:flex gap-7 text-white text-sm hidden"
+        >
+            <li><a href="#home">Home</a></li>
+            <li><a href="#aboutMe">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+        </ul>
+        <button id="hamburger_list" type="button" class=" lg:hidden md:hidden">
+          <img
+            src="/assets/img/menu_24dp_FILL0_wght400_GRAD0_opsz24.png"
+            alt=""
+            id="hamburgerIcon"
+            class="w-8 "
+          />
+          <img
+            src="/assets/img/close_24dp_FILL0_wght400_GRAD0_opsz24.png"
+            alt=""
+            id="closeIcon"
+            class="w-8 hidden"
+          />
+        </button>
+        
+      </nav>
+      <div id="List" class="list hidden transition-all duration-500">
+        <ul
+          class="lg:hidden md:hidden gap-10 text-white text-sm flex flex-col absolute 
+          bg-primary left-0 right-0 text-center py-10"
+        >
+          <li><a href="#home">Home</a></li>
+          <li><a href="#aboutMe">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+        </ul>
+      </div>
+    </header>
+    <main class="mt-10">
+      <section
+        id="home"
+        class="lg:flex lg:flex-col lg:items-center lg:mb-10 md:mb-10 lg:px-5"
+      >
+        <div class="flex flex-wrap items-center justify-between px-5">
+          <div class="container lg:w-[60%]">
+            <h1 class="capitalize text-secondary font-semibold text-sm">
+              halo semuanya! nama saya, <br />
+              <span class="text-sky-900 font-bold text-3xl"
+                >Karina Ghaisani</span
+              >
+            </h1>
+            <h2 class="text-xs mt-1 text-primary font-normal mb-5">
+              <span class="bg-sky-100 mr-2 px-2 rounded-lg"
+                >Front-End Web Developer</span
+              >
+              <span class="bg-sky-100 px-2 rounded-lg">UI/UX Designer</span>
+            </h2>
+            <div class="bg-slate-50 rounded-md text-primary font-medium">
+              <p class="text-sm text-justify p-3">
+                "Saya adalah Front-End Developer dan UI/UX Designer yang
+                menggabungkan keahlian teknis dengan sentuhan seni untuk
+                menciptakan antarmuka digital yang menarik dan intuitif. Dengan
+                pemahaman mendalam tentang desain dan pengembangan web, saya
+                menciptakan solusi inovatif yang melebihi ekspektasi. Saya
+                selalu memperhatikan detail, menggabungkan kreativitas dan
+                teknologi untuk memberikan pengalaman terbaik bagi pengguna."
+              </p>
+            </div>
+            <div class="text-secondary mt-2">
+              <div class="flex flex-col items-end">
+                <h2 class="font-semibold text-sm">Let's Connect!</h2>
+                <ul class="mt-1">
+                  <li>
+                    <a href="https://linkedin.com/in/karina-ghaisani">
+                      <img
+                        src="/assets/img/linkedIn-logo.png"
+                        alt="LinkedIn-Karina-Ghaisani"
+                        class="w-8"
+                      />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="container mt-8 lg:w-[40%]">
+            <div
+              class="bg-sky-200 rounded-lg max-w-64 lg:max-w-80 md:max-w-72 mx-auto"
+            >
+              <img src="/assets/img/karina.png" alt="Karina Ghaisani" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="aboutMe" class="mt-8 lg:mt-0 mb-10 lg:px-5">
+        <div
+          class="flex flex-wrap flex-row-reverse px-5 justify-between items-center content-center"
+        >
+          <div class="text-primary text-sm mb-5 text-justify lg:w-2/3">
+            <h1 class="font-semibold text-3xl text-secondary capitalize mb-3">
+              About me
+            </h1>
+            <p class="mb-3">
+              Nama saya Karina Ghaisani, biasa dipanggil Karina. Saya adalah
+              seorang mahasiswa semester 4 yang sedang menempuh pendidikan di
+              Universitas Pembangunan Nasional Veteran Jakarta, Fakultas Ilmu
+              Komputer, Program Studi S1 Sistem Informasi.
+            </p>
+            <p class="my-3">
+              Saya memiliki minat yang besar terhadap web development dan UI/UX
+              design. Ketertarikan saya pada web development berawal dari
+              keinginan untuk mempelajari bagaimana sebuah website dapat
+              dibangun dengan baik, mulai dari struktur, fungsionalitas, hingga
+              tampilan yang menarik. Sementara itu, minat saya pada UI/UX design
+              didorong oleh apresiasi saya terhadap pentingnya menciptakan
+              pengalaman pengguna yang intuitif dan menyenangkan dalam sebuah
+              produk digital.
+            </p>
+            <p>
+              Motivasi utama saya untuk menjadi seorang fullstack developer
+              adalah keinginan untuk memahami seluruh aspek pengembangan
+              aplikasi web secara komprehensif. Sebagai seorang fullstack
+              developer, saya dapat mengombinasikan keterampilan dalam
+              pengembangan front-end dan back-end, sehingga saya dapat terlibat
+              dalam proses pembuatan aplikasi web dari awal hingga akhir. Hal
+              ini memungkinkan saya untuk memiliki kontrol yang lebih besar atas
+              kualitas dan efisiensi produk yang saya kembangkan.
+            </p>
+          </div>
+          <div class="lg:w-1/3 flex justify-center w-full">
+            <div class="mx-auto">
+              <img
+                src="/assets/img/element-girl.png"
+                alt="Element Girl"
+                class="w-64 max-w-96 min-w-40 lg:w-72"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="mt-5 bg-sky-900 lg:px-5 pb-5">
+        <div class="container-heading my-3 px-6 py-5">
+          <h1 class="font-semibold text-slate-50 text-3xl text-center">
+            My Projects
+          </h1>
+        </div>
+        <div
+          class="px-5 flex flex-wrap justify-around gap-x-7 gap-y-4 content-center items-start"
+        >
+          <div class="card w-80 text-justify">
+            <div
+              class="bg-red-400 w-full h-44 bg-cover"
+              style="background-image: url('/assets/img/landing-page-uts.png')"
+            ></div>
+            <div>
+              <p
+                class="font-semibold text-slate-50 text-lg text-left mt-2 mb-1"
+              >
+                UTS Praktikum Web Programming
+              </p>
+              <p class="text-xs text-slate-100 font-light">
+                Gambar di atas merupakan hasil dari proyek UTS praktikum web
+                yang saya kerjakan. Dalam proyek ini, saya membuat sebuah
+                aplikasi web yang terdiri dari dua bagian utama, yaitu landing
+                page dan form isian.
+              </p>
+            </div>
+            <div class="flex flex-wrap justify-evenly items-center gap-x-2">
+              <button
+                id="deployPrakWeb"
+                type="button"
+                class="px-3 py-2 bg-slate-50 rounded-xl my-5 text-primary font-semibold drop-shadow-md shadow-slate-600 hover:opacity-70 text-xs"
+              >
+                Link Deploy
+              </button>
+              <button
+                id="gitHubPrakWeb"
+                type="button"
+                class="px-3 py-2 border-2 border-slate-50 rounded-xl my-5 text-slate-50 font-semibold drop-shadow-md shadow-slate-600 hover:opacity-70 text-xs"
+              >
+                Source Code GitHub
+              </button>
+            </div>
+          </div>
+          <div class="card w-80 text-justify">
+            <div
+              class="bg-red-400 w-full h-44 bg-cover"
+              style="
+                background-image: url('/assets/img/depot-landing-page.png');
+              "
+            ></div>
+            <div>
+              <p
+                class="font-semibold text-slate-50 text-lg text-left mt-2 mb-1"
+              >
+                PKM-PI Depot Anugrah
+              </p>
+              <p class="text-xs text-slate-100 font-light">
+                Gambar di atas merupakan mock-up dari proyek PKM-PI yang
+                dikerjakan oleh saya dan tim. Dalam proyek ini, kami membuat
+                mock-up aplikasi untuk mitra kami,
+                <span class="font-semibold">Depot Anugrah</span>.
+              </p>
+            </div>
+            <div class="flex flex-wrap justify-evenly">
+              <button
+                id="protypeDepot"
+                type="button"
+                class="px-3 py-2 bg-slate-50 rounded-xl my-5 text-primary font-semibold drop-shadow-md shadow-slate-600 hover:opacity-70 text-xs"
+              >
+                Prototype
+              </button>
+            </div>
+          </div>
+          <div class="card w-80 text-justify">
+            <div
+              class="bg-red-400 w-full h-44 bg-cover"
+              style="background-image: url('/assets/img/landing-page-uts.png')"
+            ></div>
+            <div>
+              <p
+                class="font-semibold text-slate-50 text-lg text-left mt-2 mb-1"
+              >
+                UTS Praktikum Web Programming
+              </p>
+              <p class="text-xs text-slate-100 font-light">
+                Gambar di atas merupakan hasil dari proyek UTS praktikum web
+                yang saya kerjakan. Dalam proyek ini, saya membuat sebuah
+                aplikasi web yang terdiri dari dua bagian utama, yaitu landing
+                page dan form isian.
+              </p>
+            </div>
+            <div class="flex flex-wrap justify-evenly items-center gap-x-2">
+              <button
+                id="deployPrakWeb"
+                type="button"
+                class="px-3 py-2 bg-slate-50 rounded-xl my-5 text-primary font-semibold drop-shadow-md shadow-slate-600 hover:opacity-70 text-xs"
+              >
+                Link Deploy
+              </button>
+              <button
+                id="gitHubPrakWeb"
+                type="button"
+                class="px-3 py-2 border-2 border-slate-50 rounded-xl my-5 text-slate-50 font-semibold drop-shadow-md shadow-slate-600 hover:opacity-70 text-xs"
+              >
+                Source Code GitHub
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="education" class="mt-10">
+        <div>
+          <div class="px-5">
+            <h1 class="text-secondary font-semibold text-3xl">Education</h1>
+          </div>
+          <div class="flex flex-wrap mt-3 mb-5">
+            <div class="lg:w-[35%] md:w-1/3 px-5">
+              <img
+                src="/assets/img/upnvj.png"
+                alt="UPNVJ"
+                class="w-full mx-auto"
+              />
+            </div>
+            <div class="lg:w-[65%] md:w-2/3 px-5 self-start">
+              <p class="text-sky-900 font-semibold text-xl mt-1">
+                Universitas Pembangunan Veteran Jakarta
+              </p>
+              <div class="text-sm flex flex-wr gap-x-3 mt-1 mb-3 text-primary">
+                <button class="bg-slate-200 px-2 rounded-xl text-xs">
+                  Ilmu Komputer
+                </button>
+                <button class="bg-slate-200 px-2 rounded-xl text-xs">
+                  S1 Sistem Informasi
+                </button>
+              </div>
+              <div
+                class="flex items-center gap-x-2 bg-slate-200 w-fit px-2 py-1 text-xs rounded-xl font-medium text-primary mb-3"
+              >
+                <p>2022</p>
+                <div class="h-[2px] w-4 bg-sky-800"></div>
+                <p>Present</p>
+              </div>
+              <p class="text-sm text-justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+                nihil dignissimos at harum dolor fuga, libero a illo? Ut,
+                quisquam! Eveniet ipsum reiciendis vero sit unde officia magni
+                laboriosam molestias deleniti accusamus eius, animi eos illo,
+                aspernatur repellat. Reprehenderit inventore ut consequatur
+                ducimus ab quis beatae fugit nostrum, distinctio delectus?
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-wrap">
+            <div class="lg:w-[35%] md:w-1/3 px-5">
+              <img
+                src="/assets/img/smansa.png"
+                alt="UPNVJ"
+                class="w-full mx-auto"
+              />
+            </div>
+            <div class="lg:w-[65%] md:w-2/3 px-5 self-start">
+              <p class="text-sky-900 font-semibold text-xl mt-1">
+                SMAN 1 Bogor
+              </p>
+              <div class="text-sm flex flex-wr gap-x-3 mt-1 mb-3 text-primary">
+                <button class="bg-slate-200 px-2 rounded-xl text-xs">
+                  MIPA
+                </button>
+              </div>
+              <div
+                class="flex items-center gap-x-2 bg-slate-200 w-fit px-2 py-1 text-xs rounded-xl font-medium text-primary mb-3"
+              >
+                <p>2019</p>
+                <div class="h-[2px] w-4 bg-sky-800"></div>
+                <p>2022</p>
+              </div>
+              <p class="text-sm text-justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+                nihil dignissimos at harum dolor fuga, libero a illo? Ut,
+                quisquam! Eveniet ipsum reiciendis vero sit unde officia magni
+                laboriosam molestias deleniti accusamus eius, animi eos illo,
+                aspernatur repellat. Reprehenderit inventore ut consequatur
+                ducimus ab quis beatae fugit nostrum, distinctio delectus?
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-sky-800 mt-12">
+      <div class="py-3">
+        <div class="flex flex-wrap justify-center items-center gap-x-2">
+          <img src="/assets/img/creadit.png" alt="creadit" class="w-3" />
+          <p class="text-slate-50 text-xs">Karina Ghaisani</p>
+        </div>
+      </div>
+    </footer>
+    <script src="/src/script.js"></script>
+  </body>
+</html>
