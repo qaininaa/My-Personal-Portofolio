@@ -1,3 +1,4 @@
+// menu hamburger di device kecil
 const hamburger = document.getElementById('hamburgerIcon');
 const close = document.getElementById('closeIcon');
 const list = document.getElementById('List')
@@ -13,5 +14,16 @@ close.addEventListener('click', function() {
     hamburger.classList.remove('hidden');
     close.style.display = 'none';
     list.style.display = 'none';
+})
 
+// deploy site uts praktikum web
+const sitePrakWeb = document.getElementById('sitePrakWeb');
+sitePrakWeb.addEventListener('click', function() {
+    window.open('https://uts-prakweb-karina.netlify.app/');
+})
+
+// github uts prak web
+const gitHubPrakWeb = document.getElementById('gitHubPrakWeb');
+gitHubPrakWeb.addEventListener('click', function() {
+    window.open('https://github.com/qaininaa/UTS-Prak-Web.git');
 })
