@@ -27,3 +27,16 @@ const gitHubPrakWeb = document.getElementById('gitHubPrakWeb');
 gitHubPrakWeb.addEventListener('click', function() {
     window.open('https://github.com/qaininaa/UTS-Prak-Web.git');
 })
+
+// prototype depot anugrah
+const prototypeDepot = document.getElementById('prototypeDepot');
+prototypeDepot.addEventListener('click', function() {
+    window.open('https://www.figma.com/proto/dsvd0AQRKbQ1jOylNXE3HY/web-depot?node-id=13-148&t=cjE4y5ckS9vqQiPt-1&scaling=scale-down-width&page-id=11%3A2');
+})
+
+// protype project TD desa kailuring
+const prototypeDesa = document.getElementById('prototypeDesa')
+prototypeDesa.addEventListener('click', function() {
+    window.open('https://www.figma.com/proto/n7YJtjN9NSKUSPYCv0tpEG/PROJEK-TD?node-id=35-144&t=DtEWsEsJctf0Eq6k-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=35%3A144');
+})
+
