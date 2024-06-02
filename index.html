@@ -13,16 +13,16 @@
     <header class="bg-primary sticky w-full top-0 z-[999]">
       <nav class="py-3 px-8 flex items-center justify-between">
         <div class="logo text-white text-xl">
-          <h1 class="font-bold"><span class="font-medium">Porto</span>Karina</h1>
+          <h1 class="font-bold cursor-default"><span class="font-medium">Porto</span>Karina</h1>
         </div>
         <ul
           id="menuList"
-          class="lg:flex md:flex gap-7 text-white text-sm hidden"
+          class="lg:flex md:flex gap-8 text-white text-sm hidden"
         >
-            <li><a href="#home">Home</a></li>
-            <li><a href="#aboutMe">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#education">Education</a></li>
+            <li><a href="#home" class="transisi">Home</a></li>
+            <li><a href="#aboutMe" class="transisi">About</a></li>
+            <li><a href="#projects" class="transisi">Projects</a></li>
+            <li><a href="#education" class="transisi">Education</a></li>
         </ul>
         <button id="hamburger_list" type="button" class=" lg:hidden md:hidden">
           <img
@@ -45,10 +45,10 @@
           class="lg:hidden md:hidden gap-10 text-white text-sm flex flex-col absolute 
           bg-primary left-0 right-0 text-center py-10"
         >
-          <li><a href="#home">Home</a></li>
-          <li><a href="#aboutMe">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#education">Education</a></li>
+          <li><a href="#home" class="transisi">Home</a></li>
+          <li><a href="#aboutMe" class="transisi">About</a></li>
+          <li><a href="#projects" class="transisi">Projects</a></li>
+          <li><a href="#education" class="transisi">Education</a></li>
         </ul>
       </div>
     </header>
@@ -73,7 +73,7 @@
             </h2>
             <div class="bg-slate-50 rounded-md text-primary font-medium">
               <p class="text-sm text-justify p-3">
-                "Saya adalah Front-End Developer dan UI/UX Designer yang
+                "Saya adalah seorang Front-End Developer dan UI/UX Designer yang
                 menggabungkan keahlian teknis dengan sentuhan seni untuk
                 menciptakan antarmuka digital yang menarik dan intuitif. Dengan
                 pemahaman mendalam tentang desain dan pengembangan web, saya
@@ -82,24 +82,27 @@
                 teknologi untuk memberikan pengalaman terbaik bagi pengguna."
               </p>
             </div>
-            <div class="text-secondary mt-2">
-              <div class="flex flex-col items-end">
-                <h2 class="font-semibold text-sm">Let's Connect!</h2>
-                <ul class="mt-1">
-                  <li>
-                    <a href="https://linkedin.com/in/karina-ghaisani">
-                      <img
-                        src="/assets/img/linkedIn-logo.png"
-                        alt="LinkedIn-Karina-Ghaisani"
-                        class="w-8"
-                      />
-                    </a>
-                  </li>
-                </ul>
+              <div class="flex flex-col text-secondary mt-3">
+                <h2 class="font-semibold text-sm">Temukan Saya!</h2>
+                <div class="mt-1 flex gap-x-3">
+                  <a href="https://linkedin.com/in/karina-ghaisani">
+                    <img
+                    src="/assets/img/linkedIn-logo.png"
+                    alt="LinkedIn-Karina-Ghaisani"
+                    class="w-9"
+                    />
+                  </a>
+                  <a href="https://www.instagram.com/qaininaa?igsh=MWhoajF1eWl2NG1yeg==">
+                    <img
+                      src="/assets/img/instagram-logo.png"
+                      alt="Instagram-Karina-Ghaisani"
+                      class="w-8"
+                    />
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="container mt-8 lg:w-[40%]">
+            <div class="container mt-8 lg:w-[40%]">
             <div
               class="bg-sky-200 rounded-lg max-w-64 lg:max-w-80 md:max-w-72 mx-auto"
             >
@@ -181,7 +184,7 @@
                 page dan form isian.
               </p>
             </div>
-            <div class="flex flex-wrap justify-evenly items-center gap-x-2">
+            <div class="flex flex-wrap justify-center items-center gap-x-2">
               <button
                 id="sitePrakWeb"
                 type="button"
@@ -189,15 +192,36 @@
               >
                 Link Site
               </button>
-              <button
-                id="gitHubPrakWeb"
-                type="button"
-                class="px-3 py-2 border-2 border-slate-50 rounded-xl my-5 text-slate-50 font-semibold drop-shadow-md shadow-slate-600 hover:opacity-70 text-xs"
+            </div>
+          </div>
+          <div class="card w-80 text-justify">
+            <div
+              class="bg-red-400 w-full h-44 bg-cover"
+              style="background-image: url('/assets/img/kalkulator.png')"
+            ></div>
+            <div>
+              <p
+                class="font-semibold text-slate-50 text-lg text-left mt-2 mb-1"
               >
-                Source Code GitHub
+                KalkulatorKarina
+              </p>
+              <p class="text-xs text-slate-100 font-light">
+                Gambar di atas merupakan hasil dari personal projek, yakni kalkulator,
+                di mana saya menggunakan HTML, TailwindCSS, dan Javascript dalam mengembangkan
+                web kalkulator tersebut.
+              </p>
+            </div>
+            <div class="flex flex-wrap justify-center items-center gap-x-2">
+              <button
+                id="siteKalku"
+                type="button"
+                class="px-3 py-2 bg-slate-50 rounded-xl my-5 text-primary font-semibold drop-shadow-md shadow-slate-600 hover:opacity-70 text-xs"
+              >
+                Link Site
               </button>
             </div>
           </div>
+
           <div class="card w-80 text-justify">
             <div
               class="bg-red-400 w-full h-44 bg-cover"
@@ -240,9 +264,36 @@
                 Aplikasi Smart Village Desa Kailuring 
               </p>
               <p class="text-xs text-slate-100 font-light">
-                Gambar di atas merupakan hasil prototype dari proyek akhir mata kuliah transformasi
-                digital. Aplikasi in merupakan aplikasi yang membantu bagi desa Kailuring
-                baik untuk administrasi, kesehatan, dan komunikasi sesama warga desa kailuring.
+                Gambar di atas merupakan hasil prototipe dari proyek akhir mata kuliah 
+                Transformasi Digital. Aplikasi ini merupakan aplikasi yang membantu Desa Kailuring, 
+                baik untuk administrasi, kesehatan, maupun komunikasi antar-warga desa.
+              </p>
+            </div>
+            <div class="flex flex-wrap justify-evenly">
+              <button
+                id="prototypeDesa"
+                type="button"
+                class="px-3 py-2 bg-slate-50 rounded-xl my-5 text-primary font-semibold drop-shadow-md shadow-slate-600 hover:opacity-70 text-xs"
+              >
+                Prototype
+              </button>
+            </div>
+          </div>
+          <div class="card w-80 text-justify">
+            <div
+              class="bg-red-400 w-full h-44 bg-cover "
+              style="background-image: url('/assets/img/giggleWest.png')"
+            ></div>
+            <div>
+              <p
+                class="font-semibold text-slate-50 text-lg text-left mt-2 mb-1"
+              >
+                GiggleWest
+              </p>
+              <p class="text-xs text-slate-100 font-light">
+                Gambar di atas merupakan hasil rancangan saya dan tim mengenai "Perancangan 
+                Sistem Informasi E-Ticketing Konser Berbasis Website di Jawa Barat" dalam 
+                <span class="font-medium">Seminar Nasional ke-6 SEINASI-KESI</span>.
               </p>
             </div>
             <div class="flex flex-wrap justify-evenly">
@@ -290,14 +341,15 @@
                 <div class="h-[2px] w-4 bg-sky-800"></div>
                 <p>Present</p>
               </div>
-              <p class="text-sm text-justify">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                nihil dignissimos at harum dolor fuga, libero a illo? Ut,
-                quisquam! Eveniet ipsum reiciendis vero sit unde officia magni
-                laboriosam molestias deleniti accusamus eius, animi eos illo,
-                aspernatur repellat. Reprehenderit inventore ut consequatur
-                ducimus ab quis beatae fugit nostrum, distinctio delectus?
-              </p>
+              <div class="text-sm text-justify">
+                <p>Mata Kuliah</p>
+                <ul class="text-sm list-disc ml-5 flex  flex-col flex-wrap">
+                  <li>Analisis Perancangan Sistem Informasi</li>
+                  <li>Web Programming</li>
+                  <li>Sistem Basis Data</li>
+                  <li>Interaksi Manusia-Komputer</li>
+                </ul>
+              </div>
             </div>
           </div>
           <div class="flex flex-wrap">
@@ -324,17 +376,9 @@
                 <div class="h-[2px] w-4 bg-sky-800"></div>
                 <p>2022</p>
               </div>
-              <p class="text-sm text-justify">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-                nihil dignissimos at harum dolor fuga, libero a illo? Ut,
-                quisquam! Eveniet ipsum reiciendis vero sit unde officia magni
-                laboriosam molestias deleniti accusamus eius, animi eos illo,
-                aspernatur repellat. Reprehenderit inventore ut consequatur
-                ducimus ab quis beatae fugit nostrum, distinctio delectus?
-              </p>
+              
+              </div>
             </div>
-          </div>
-        </div>
       </section>
     </main>
     <footer class="bg-sky-800 mt-12">

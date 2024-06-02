@@ -22,10 +22,12 @@ sitePrakWeb.addEventListener('click', function() {
     window.open('https://uts-prakweb-karina.netlify.app/');
 })
 
-// github uts prak web
-const gitHubPrakWeb = document.getElementById('gitHubPrakWeb');
-gitHubPrakWeb.addEventListener('click', function() {
-    window.open('https://github.com/qaininaa/UTS-Prak-Web.git');
+
+
+// deploy site kalkulator web
+const siteKalku = document.getElementById('siteKalku');
+sitePrakWeb.addEventListener('click', function() {
+    window.open('https://kalkulatorkarina.netlify.app/');
 })
 
 // prototype depot anugrah
