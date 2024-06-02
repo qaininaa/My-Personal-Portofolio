@@ -26,7 +26,7 @@ sitePrakWeb.addEventListener('click', function() {
 
 // deploy site kalkulator web
 const siteKalku = document.getElementById('siteKalku');
-sitePrakWeb.addEventListener('click', function() {
+siteKalku.addEventListener('click', function() {
     window.open('https://kalkulatorkarina.netlify.app/');
 })
 
